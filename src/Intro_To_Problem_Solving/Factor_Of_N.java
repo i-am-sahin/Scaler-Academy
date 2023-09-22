@@ -1,6 +1,9 @@
 package Intro_To_Problem_Solving;
+/*
+Question
+* Given N, Return no. Of factors of N
+* */
 
-import java.util.Scanner;
 
 public class Factor_Of_N {
 
