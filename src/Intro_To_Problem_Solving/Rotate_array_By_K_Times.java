@@ -2,7 +2,7 @@ package Intro_To_Problem_Solving;
 
 /*
 *   Given Arr[N] and K ; Rotate array form last to first by K times
-* Note : You cann't Create another Array
+* Note : You can't Create another Array
 *
 *
 * */
@@ -21,6 +21,7 @@ public class Rotate_array_By_K_Times {
     }
    public static void Rotate(int ar[],int k){
         int n = ar.length;
+        k = k % n;
         reverseRange(ar,0,n-1);
         reverseRange(ar,0,k-1);
         reverseRange(ar,k,n-1);
