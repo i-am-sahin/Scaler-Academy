@@ -1,4 +1,4 @@
-package Intro_To_Problem_Solving;
+package DSA_01.Intro_To_Problem_Solving;
 /*
 Question
 * Given N, Return no. Of factors of N

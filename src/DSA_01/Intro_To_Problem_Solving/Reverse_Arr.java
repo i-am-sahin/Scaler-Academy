@@ -1,4 +1,4 @@
-package Intro_To_Problem_Solving;
+package DSA_01.Intro_To_Problem_Solving;
 /*Given Arr[N] Elements & index S and E
     Reverse Arr[] form [S to E]
     Note : S<= E
