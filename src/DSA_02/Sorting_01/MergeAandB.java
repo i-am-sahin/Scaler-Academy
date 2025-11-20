@@ -89,8 +89,8 @@ public class MergeAandB {
         }
 
 
-        int[] a = {1,2,3,5,7,99,111,222,2,3,10,12,55,66,69,89,222,333};
-        int[] ans2 = merge(a,0,7,a.length-1);
+        int[] x = {1,2,3,5,7,99,111,222,2,3,10,12,55,66,69,89,222,333};
+        int[] ans2 = merge(x,0,7,a.length-1);
         for (int i = 0; i < ans2.length; i++) {
             System.out.print(ans2[i] + " ");
         }
