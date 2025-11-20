@@ -1,5 +1,5 @@
 package DSA_02.Sorting_01;
-
+import java.util.Random;
 public class InsertionSort {
     public static void insertionSort(int[] arr){
         int n = arr.length;
@@ -16,7 +16,14 @@ public class InsertionSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = {1,2,3,5,7,4,1,3,7,8};
+        int n = 10;
+        Random r = new Random();
+
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = r.nextInt(10);
+        }
+
         System.out.println("Before Sorting : ");
         for (int i = 0; i < arr.length;i++){
             System.out.print(arr[i] + " ");
