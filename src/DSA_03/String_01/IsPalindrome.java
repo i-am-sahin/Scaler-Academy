@@ -1,6 +1,6 @@
-package String_01;
+package DSA_03.String_01;
 
-public class isPalindrome {
+public class IsPalindrome {
     /*
     Given a String, Starting index and End index.
     check if a given Substring is Palindrome or Not!
