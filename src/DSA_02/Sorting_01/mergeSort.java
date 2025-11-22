@@ -13,7 +13,7 @@ public class mergeSort {
 
     public static int[] merge(int[] a,int L,int M,int R){
         int n = a.length;
-        int[] ans = new int[n];
+        int[] ans = new int[R-L+1]; //this is the length of the merged array for any size of array!
 
 
         int p1 = L,p2 = M+1,i = 0;
@@ -41,8 +41,8 @@ public class mergeSort {
             i++;
             p2++;
         }
-        for (int x = L; i < R; x++) {
-            a[x] = ans[x];
+        for (int x = L; x <= R; x++) {
+            a[x] = ans[x - L];
         }
         return a; //T.C : O(N)
     }
@@ -50,6 +50,10 @@ public class mergeSort {
 
     public static void main(String[] args) {
         int[] a = {1,2,45,0,67,2,1,-10,22,55,6,2};
+        mergeSort(a,0, a.length-1);
+       for (int i = 0; i< a.length; i++){
+           System.out.print(a[i] + " ");
+       }
 
     }
 }
