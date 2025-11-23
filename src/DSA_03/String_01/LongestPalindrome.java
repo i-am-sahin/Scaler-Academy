@@ -70,7 +70,7 @@ public class LongestPalindrome {
                     break;
                 }
             }
-            int currentMaxLength = p2 - p1 + 1;
+            int currentMaxLength = p2 - p1 - 1;
             maxEvenPalindromeLength = Math.max(maxEvenPalindromeLength,currentMaxLength);
         }
         return maxEvenPalindromeLength;
